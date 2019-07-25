@@ -2,37 +2,36 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Basic Portfolio</title>
+  <title>Contact | Kaitlyn Steagall</title>
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
   <header>
-    <nav>
-      <h1 class= "myName">Kaitlyn Steagall</h1>
-      <p class="pages">
-        <a style="text-decoration: none" href="index.html"> About Me |</a>
-        <a style="text-decoration: none" href="portfolio.html"> Portfolio |</a>
-        <a style="text-decoration: none" href="contact.html"> Contact</a>
-      <p>
-    </nav>
+    <div class="navbar">
+      <a href="index.html" id="myName">Kaitlyn Steagall</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
-  <div class="background">
+  <div>
     <section class= "contentBox">
-      <h1 class= "contentHeader">Contact</h1>
-      <hr>
+      <h1>Contact</h1>
       <form>
         <label>Name</label><br>
-        <input type="text" name="firstname" value="John Doe"><br>
+        <input type="text" id="name" name="name" placeholder="John Doe" required="required"><br>
         <label>Email</label><br>
-        <input type="text" name="lastname" value="example@gmail.com"><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required"><br>
         <label>Message</label><br>
-        <textarea rows="10" cols="100"></textarea><br>
-        <button type="button">Submit</button>
+        <textarea id="message" name="message" required="required"></textarea><br>
       </form>
+      <input type="submit">
     </section>
   </div>
   <footer>
-    <p>Copyright ©</p>
+    <div>Copyright &copy;</div>
   </footer>
 </body>
 </html>
