@@ -1,5 +1,5 @@
 # Basic-Portfolio
 
-See the layout of my profile using nothing but CSS with the link below!
+This is the first version of my portfolio using just html5 and css3. More personal detail and no specific projects shown. My final portfolio will have projects shown as well as a more professional bio.
 
 https://kaitlynsteagall.github.io/Basic-Portfolio/
